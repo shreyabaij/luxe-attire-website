@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+h2 {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+/* Navigation Links */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: palevioletred;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px;
+}
+
+a:hover {
+    background-color: palevioletred;
+}
+
+/* Table Styles */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: palevioletred;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
